@@ -5,7 +5,7 @@ random = (randint(1,10))
 
 
 while True:
-    raw = raw_input("Guess the number: ")
+    raw = int(raw_input("Guess the number: "))
 
     if raw != random:
         print "Try again"
