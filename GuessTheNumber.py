@@ -6,6 +6,8 @@ random = (randint(1,10))
 
 while True:
     raw = int(raw_input("Guess the number: "))
+    # Remember that raw_input will only give you a string,
+    # not an integer
 
     if raw != random:
         print "Try again"
